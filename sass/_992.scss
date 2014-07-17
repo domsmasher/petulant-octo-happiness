@@ -1,0 +1,28 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1px;
+  width: 150px;
+  background-color: rgb(37, 42, 58);
+}
+
+.items-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1px;
+  width: 350px;
+  border-right: 1px solid $lightgrey;
+}
+
+.items-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1px 1px 1px 500px;
+}

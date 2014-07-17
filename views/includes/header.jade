@@ -1,19 +1,5 @@
-header(role="banner", class="header")
-    - var menu = [{link: 'home', text: 'Home'}, {link: 'about-us', text: 'About Us'}, {link: 'contact', text: 'Contact'}]
-    .container
-        .row
-            .col-xs-12.col-sm-4
-                h1(style="margin: 0; margin-top: 5px;")
-                    img(src="http://placehold.it/173x45")
-            .col-xs-12.col-sm-8
-                nav(class="h-nav pull-right", role="navigation")
-                    ul
-                        each val, index in menu
-                            if val.link === activeMenu
-                                li(class="h-nav-item is-active")
-                                    a(href='/' + val.link + '/' )
-                                        =val.text
-                            else
-                                li(class="h-nav-item")
-                                    a(href='/' + val.link + '/' )
-                                        =val.text
+header(id="header", role="banner", class="main-header")
+    nav#nav.main-nav
+        ul
+            li
+                a(href="#") Back
